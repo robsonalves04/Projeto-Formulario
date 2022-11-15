@@ -4,21 +4,14 @@ body{
     margin: 0px;
     padding: 0px;
 }
-header{
-    background: #000000;
-    padding: 20px 0
-}
-.caixa{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;    
-}
+
 
 form label, form legend{
     display: flex;
     position: relative;
     font-size: 16px;
-    margin: 0 0 10px;
+    margin: 0 0 0px;
+    
     
 }
 
@@ -27,8 +20,9 @@ form{
     background-color: aliceblue;
     border-radius: 18px;
     margin-left: 50%;
-    display: block;
-    margin-top: 35%;
+    justify-content: right;
+    margin-top: 250px;
+    
 }
 
 .enviar{
@@ -58,10 +52,22 @@ form{
     display: block;
         width: 100%;
 }
-.bgform{
-    display: flex;
+bgform{
+    margin-left: 50%;
+    margin-top: 35%;
+    display: block;
     justify-content: space-around;
 }
-.bg{
-    color: #000000;
+bg{
+    width: 50%;
+    height: 50%;
+}
+
+.sobre{
+    padding: 1rem;
+    border-radius: 18px;
+    margin-right: 50%;
+    display: block;
+    justify-content: left;
+    
 }
