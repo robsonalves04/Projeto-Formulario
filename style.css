@@ -1,12 +1,72 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px;
+    padding: 0px;*/
+}
+.body_bg {
+    background: url('./images/bg-intro-desktop.png') repeat center / cover;
+    background-color: palevioletred;
+}
+.corpo{
+    width: 960px;
+    margin: auto;
 }
 
+.bgform{
+    display: flex;
+}
 
-form label, form legend{
+.linhas{
+    display: flex;
+    float: left;
+    width: 300px;
+     background-color: aliceblue;
+     border-radius: 18px;
+     margin-left: 50%;
+     padding: 1rem;
+     justify-content: right;
+     margin-top: 250px;*/
+    }
+    .sobre{
+        display: table-cell;
+        float:left;
+        width: 300px;
+        margin-top: -20px;
+        margin-left: 20px;        
+       border-radius: 18px;
+        margin-right: 50%;
+        padding: 1rem;
+        display: block;
+        justify-content: left;*/
+        
+    }
+    .botao{
+        display: flexbox;
+        justify-content: center;
+    }
+.enviar{
+        width: 40%;
+        padding: 15px 0;
+        background:/* Green */hsl(154, 59%, 51%);
+        color: rgb(255, 250, 250);
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        transition: 1s all; 
+        cursor: pointer;
+       margin-left: 55%;
+    }
+
+.bgform{
+   /*  display: table;
+   margin-left: 50%;
+    margin-top: 35%;
+    justify-content: space-around;*/
+}
+
+/*form label, form legend{
     display: flex;
     position: relative;
     font-size: 16px;
@@ -23,51 +83,21 @@ form{
     justify-content: right;
     margin-top: 250px;
     
-}
+}*/
 
-.enviar{
-    width: 40%;
-    padding: 15px 0;
-    background:/* Green */hsl(154, 59%, 51%);
-    color: rgb(255, 250, 250);
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    transition: 1s all; 
-    cursor: pointer;
-    margin-left: 55%;
-}
 .enviar:hover{
     background: Green;
     transform: scale(1.1);
-    color: black;
+    color: black;*/
 }
-.body_background {
-    background: url('./images/bg-intro-desktop.png') repeat center / cover;
-    background-color: palevioletred;
-}
+
 
 .input-padrao {
     display: block;
-        width: 100%;
-}
-bgform{
-    margin-left: 50%;
-    margin-top: 35%;
-    display: block;
-    justify-content: space-around;
+    width: 100%;
 }
 bg{
     width: 50%;
     height: 50%;
-}
+}*/
 
-.sobre{
-    padding: 1rem;
-    border-radius: 18px;
-    margin-right: 50%;
-    display: block;
-    justify-content: left;
-    
-}
