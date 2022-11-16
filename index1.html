@@ -82,6 +82,14 @@
     const spans  = document.querySelectorAll ('.span-required');
     const emailRegex = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+.com/;
 
+    form.addEventListener('submit', (event) =>{
+        event.preventDefault();
+        nameValidate();
+        emailValidate();
+        mainPasswordValidate()
+        comparePassword();
+    });
+
     function setError(index){
         campos[index].style.border = '2px solid #e63636'; 
         spans[index].style.display = 'block';  
