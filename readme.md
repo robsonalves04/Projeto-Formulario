@@ -1,5 +1,5 @@
-###  Projeto Site Receitas. </br>
-Site Visualização de Receitas de Grandes Chefes. </br>
-Práticas em HTML5 e CSS e aplicação de responsividade, adequando a vários tamanhos de telas.</br>
+###  Projeto Formulario de Dados. </br>
+Formulário envio de dados com verificação em JS, adaptável para qualquer dispositivo. </br>
+Práticas em HTML5, CSS e com validação em JavaScript com aplicação de responsividade, adequando a vários tamanhos de telas.</br>
 
-![ Site Receitas ](https://github.com/robsonalves04/ProjetoSiteReceitas/blob/main/site-receita.gif)
+![ Site Receitas ](https://github.com/robsonalves04/Projeto-Formulario/blob/main/gif-formulario.gif)
