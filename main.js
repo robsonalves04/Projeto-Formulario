@@ -1,4 +1,4 @@
-<script>
+
     const form   = document.getElementById('form');
     const campos = document.querySelectorAll('.required');
     const spans  = document.querySelectorAll ('.span-required');
@@ -63,7 +63,5 @@
         {
             setError(3);
         }
-    }
+    }   
     
-    
-</script>
